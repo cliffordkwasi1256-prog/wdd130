@@ -52,6 +52,9 @@ footer {
 
 h1,
 h2 {
+    background-color: wheat;
+    text-align: center;
+    width: 100%;
     font-family: var(--heading-font);
     color: var(--primary-color)
 }
@@ -98,13 +101,6 @@ h1 {
     opacity: .7;
     background-color: whitesmoke;
     color: var(--secondary-color);
-}
-
-h1,
-h2 {
-    background-color: wheat;
-    text-align: center;
-    width: 100%;
 }
 
 .hero article img {
