@@ -27,7 +27,7 @@ nav ul {
 }
 
 nav a {
-    color: var(--accent2-color);
+    color: var(--secondary-color);
     text-decoration: none;
     font-weight: bold;
 }
@@ -67,6 +67,10 @@ article {
     padding: 10px;
 }
 
+p {
+    color: var(--secondary-color);
+}
+
 .socialmedia a {
     text-decoration: none;
 }
@@ -88,7 +92,8 @@ h1 {
     padding: 2px;
     text-align: center;
     opacity: .8;
-    background-color: wheat;
+    background-color: rgb(250, 250, 249);
+    color: var(--secondary-color);
 }
 
 .hero article {
