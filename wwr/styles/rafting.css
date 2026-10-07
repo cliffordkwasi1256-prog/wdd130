@@ -1,6 +1,6 @@
 /* Things to be fixed */
 :root {
-    --primary-color: rgb(244, 243, 243);
+    --primary-color: rgb(254, 252, 252);
     --secondary-color: black;
     --accent1-color: wheat;
     --accent2-color: rgb(6, 162, 235);
@@ -57,7 +57,7 @@ h2 {
     text-align: center;
     width: 100%;
     font-family: var(--heading-font);
-    color: var(--primary-color)
+    color: var(--secondary-color)
 }
 
 nav,
@@ -169,4 +169,8 @@ h1 {
     grid-template-columns: 3fr 1fr;
     place-items: center;
 
+}
+
+figcaption {
+    color: var(--secondary-color);
 }
