@@ -211,10 +211,11 @@ footer p {
     width: 100%;
 }
 
-.company-info {
-    grid-column: 1;
+.company-info iframe {
+    display: block;
     width: 100%;
-    min-width: 0;
+    max-width: 100%;
+    border: 1px solid #ccc;
 }
 
 .contact-form {
