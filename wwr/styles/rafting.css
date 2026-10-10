@@ -194,7 +194,7 @@ footer {
     align-items: center;
     gap: 20px;
     border-top: 1px solid #ccc;
-    background-color: var(--accent1-color);
+
 }
 
 footer p {
@@ -423,4 +423,18 @@ footer p {
     .socialmedia {
         justify-content: center;
     }
+}
+
+/* Footer */
+footer {
+    width: 840px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 20px;
+    border-top: 1px solid #ccc;
+    background-color: var(--accent1-color);
 }
