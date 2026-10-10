@@ -194,6 +194,7 @@ footer {
     align-items: center;
     gap: 20px;
     border-top: 1px solid #ccc;
+    background-color: var(--accent1-color);
 }
 
 footer p {
@@ -233,6 +234,13 @@ footer p {
     min-width: 0;
 }
 
+.company-info iframe {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #ccc;
+}
+
 .contact-form {
     grid-column: 2;
     width: 100%;
@@ -257,6 +265,29 @@ footer p {
 
 .contact-form textarea {
     min-height: 120px;
+}
+
+.contact-form fieldset {
+    border: 1px solid #999;
+    padding: 12px;
+    margin-top: 10px;
+}
+
+.contact-form legend {
+    padding: 0 5px;
+    font-weight: bold;
+}
+
+.contact-form fieldset label {
+    display: block;
+    margin: 8px 0;
+}
+
+.contact-form input[type="radio"],
+.contact-form input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+    margin-right: 8px;
 }
 
 .contact-form button {
@@ -326,7 +357,7 @@ footer p {
 
     header nav a {
         font-size: 14px;
-        padding: 4px 8px;
+        padding: 4px 5px;
     }
 
     .hero h1 {
@@ -391,18 +422,4 @@ footer p {
     .socialmedia {
         justify-content: center;
     }
-}
-
-/* Footer */
-footer {
-    width: 840px;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 20px;
-    display: grid;
-    grid-template-columns: 1fr auto;
-    align-items: center;
-    gap: 20px;
-    border-top: 1px solid #ccc;
-    background-color: var(--accent1-color);
 }
