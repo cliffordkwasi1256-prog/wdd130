@@ -61,19 +61,25 @@ header img {
 
 header nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 10px;
+    flex-wrap: nowrap;
+    gap: 0;
 }
 
 header nav a {
+    flex: 1;
+    text-align: center;
     color: var(--secondary-color);
     text-decoration: none;
-    padding: 8px 12px;
+    padding: 6px 10px;
+    border: 1px solid #888;
+    background-color: white;
+    white-space: nowrap;
 }
 
 header nav a:hover {
+    background-color: #eee;
     color: var(--accent2-color);
     text-decoration: underline;
 }
@@ -221,11 +227,10 @@ footer p {
     width: 100%;
 }
 
-.company-info iframe {
-    display: block;
+.company-info {
+    grid-column: 1;
     width: 100%;
-    max-width: 100%;
-    border: 1px solid #ccc;
+    min-width: 0;
 }
 
 .contact-form {
@@ -388,44 +393,16 @@ footer p {
     }
 }
 
-header {
+/* Footer */
+footer {
     width: 840px;
     max-width: 100%;
     margin: 0 auto;
-    padding: 15px;
+    padding: 20px;
     display: grid;
-    grid-template-columns: 120px 1fr;
+    grid-template-columns: 1fr auto;
     align-items: center;
-    gap: 30px;
-    border: 1px solid #555;
-    background-color: #d9c9f7;
-}
-
-header img {
-    width: 100px;
-    height: auto;
-    justify-self: center;
-}
-
-header nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    gap: 0;
-}
-
-header nav a {
-    flex: 1;
-    text-align: center;
-    color: black;
-    text-decoration: none;
-    padding: 6px 10px;
-    border: 1px solid #888;
-    background-color: white;
-}
-
-header nav a:hover {
-    background-color: #eee;
-    text-decoration: underline;
+    gap: 20px;
+    border-top: 1px solid #ccc;
+    background-color: var(--accent1-color);
 }
