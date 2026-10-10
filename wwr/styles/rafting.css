@@ -1,3 +1,4 @@
+```css
 /* CSS Variables */
 :root {
     --primary-color: #a52a2a;
@@ -413,6 +414,7 @@ footer p {
         overflow-wrap: anywhere;
     }
 
+    /* Responsive footer layout */
     footer {
         grid-template-columns: 1fr;
         gap: 15px;
@@ -423,3 +425,4 @@ footer p {
         justify-content: center;
     }
 }
+```
