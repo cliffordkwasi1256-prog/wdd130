@@ -183,19 +183,6 @@ main {
     font-size: 14px;
 }
 
-/* Footer */
-footer {
-    width: 840px;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 20px;
-    display: grid;
-    grid-template-columns: 1fr auto;
-    align-items: center;
-    gap: 20px;
-    border-top: 1px solid #ccc;
-
-}
 
 footer p {
     margin-bottom: 0;
@@ -415,6 +402,15 @@ footer p {
 
     /* Responsive footer layout */
     footer {
+        width: 840px;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+        gap: 20px;
+        border-top: 1px solid #ccc;
         grid-template-columns: 1fr;
         gap: 15px;
         text-align: center;
@@ -437,14 +433,6 @@ footer {
     gap: 20px;
     border-top: 1px solid #ccc;
     background-color: var(--accent1-color);
-}
-
-/* Trips Page Layout */
-.trip {
-    border: 1px solid #ccc;
-    padding: 15px;
-    margin: 15px 0;
-    border-radius: 8px;
 }
 
 .trip img {
@@ -507,6 +495,9 @@ main:has(.trip) > .trip-table {
 
 .trip {
     margin: 0;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
 }
 
 /* Responsive layout for smaller screens */
